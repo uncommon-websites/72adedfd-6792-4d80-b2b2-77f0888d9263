@@ -1,24 +1,24 @@
 <script lang="ts">
   const stats = [
     {
-      label: "30+ People",
-      desc: "You're a small, but mighty team of curious problem-solvers and explorers. With a versatile, Swiss-knife mentality, we thrive on tackling diverse challenges. Our core team is tight-knit, yet we seamlessly tap into a wider network of experts when needed. Here, theory meets practice, and together, we get things done.",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      label: "Grass-Fed Tallow",
+      desc: "Our hero ingredient comes from grass-fed cattle, ensuring the highest quality and nutrient density. Rich in vitamins A, D, E, and K, tallow is biocompatible with human skin, absorbing deeply to restore and nourish from within. This ancestral ingredient has been trusted for generations.",
+      img: "/generated/image-raw-grass-fed-beef-tallow-in-natural-bow-1765586912917-8.webp"
     },
     {
-      label: "14+ Awards",
-      desc: "Our work speaks for itself—recognized internationally, we've already earned some awards. These accolades reflect the passion and innovation we pour into every project, pushing boundaries and delivering results that make an impact.",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200"
+      label: "Spanish Botanicals",
+      desc: "Each botanical oil is selected from Spain's rich natural heritage. Cold-pressed and minimally processed, these plant-based ingredients work in harmony with tallow to create formulations that honor both tradition and efficacy. No synthetic additives, just pure botanical wisdom.",
+      img: "/generated/image-collection-of-botanical-oils-in-glass-bo-1765586915732-9.webp"
     },
     {
-      label: "CGN, BLN, Remote",
-      desc: "Headquartered in Cologne, with an expanding team in Berlin, we also embrace remote work. Our colleagues span across cities like Barcelona, Stuttgart, Munich, and more, bringing a mix of perspectives and expertise to everything we do. Whether in the office or working remotely, we stay connected and collaborative.",
-      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200"
+      label: "Flamenco Heritage",
+      desc: "Based in Spain, TALLOE's identity is deeply rooted in flamenco culture. Our visual language—from terracotta palettes to commissioned botanical illustrations—reflects the passionate movement and authentic emotion of this art form. Every detail honors Spanish heritage.",
+      img: "/generated/image-spanish-flamenco-dancers-hands-with-red--1765586903588-5.webp"
     },
     {
-      label: "B-Corp",
-      desc: "We've officially joined the ranks of B-Corp certified companies. This means we meet the highest standards of social and environmental performance, accountability, and transparency. We're proud to use business as a force for good, ensuring our impact extends beyond just profit.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B_Corp_Logo.svg/1200px-B_Corp_Logo.svg.png" // Placeholder
+      label: "Honest Packaging",
+      desc: "Dark ultraviolet-protective vessels preserve ingredient integrity. Linen-wrapped gift boxes and botanical illustration cards reflect our commitment to material simplicity. Each package is designed with intentional imperfection, echoing pressed flowers kept between pages.",
+      img: "/generated/image-linen-wrapped-gift-box-with-botanical-il-1765586922464-11.webp"
     }
   ];
 </script>
@@ -26,7 +26,7 @@
 <section class="py-24 px-6 md:px-12 bg-white border-t border-gray-100">
   <div class="mb-16">
     <p class="text-gray-500 max-w-xl">
-      Curious about who we are? Here's a snapshot of the team, our achievements, and the milestones we're proud of.
+      What makes TALLOE different? Our commitment to ancestral ingredients, Spanish heritage, and honest formulation.
     </p>
   </div>
 

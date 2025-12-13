@@ -11,8 +11,8 @@
   import FloatingNav from "$lib/components/FloatingNav.svelte";
 </script>
 
-<main class="font-sans antialiased text-black bg-white selection:bg-purple-200 selection:text-purple-900">
-  <Header />
+<main class="font-sans antialiased text-black bg-white selection:bg-primary-200 selection:text-primary-900">
+  <Header title="TALLOE" />
   <Hero />
   <WorkSection />
   <ProcessSection />

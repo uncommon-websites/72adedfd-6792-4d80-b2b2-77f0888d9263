@@ -1,19 +1,19 @@
 <script lang="ts">
   const cards = [
     {
-      title: "We're Not Just a Vendor...",
-      subtitle: "We're Your Partner In Crime.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+      title: "Movement & Vitality",
+      subtitle: "Like Flamenco's Fluid Grace",
+      image: "/generated/image-spanish-flamenco-dancers-hands-with-red--1765586903588-5.webp"
     },
     {
-      title: "We Don't Just Follow Trends...",
-      subtitle: "We Shape New Territories.",
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+      title: "Natural Beauty",
+      subtitle: "Wild Spanish Botanicals",
+      image: "/generated/image-wild-spanish-flowers-and-botanicals-in-n-1765586906388-6.webp"
     },
     {
-      title: "We Don't Play By The Book...",
-      subtitle: "We Write It Together.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+      title: "Intentional Imperfection",
+      subtitle: "Like Pressed Flowers Between Pages",
+      image: "/generated/image-pressed-botanical-flowers-and-herbs-on-l-1765586909530-7.webp"
     }
   ];
 </script>
@@ -21,7 +21,7 @@
 <section class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-2xl mb-16">
     <p class="text-xl md:text-2xl leading-relaxed text-gray-800">
-      Collaboration isn't just a buzzword—it's how we roll. We're not here to hand off some cookie-cutter deliverable and disappear; we're in it with you, from day one.
+      Rooted in Spain's flamenco heritage, TALLOE's visual language mirrors the movement of red fabric—a promise of skin that feels fluid, nourished, alive. Our identity celebrates passionate authenticity.
     </p>
   </div>
 
@@ -29,14 +29,14 @@
     {#each cards as card}
       <div class="group">
         <div class="aspect-[4/3] overflow-hidden rounded-lg mb-4 bg-gray-100">
-          <img src={card.image} alt={card.title} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+          <img src={card.image} alt={card.title} class="w-full h-full object-cover transition-all duration-500 group-hover:scale-105" />
         </div>
         <h3 class="text-sm text-gray-500 mb-1">{card.title}</h3>
         <p class="text-sm font-bold">{card.subtitle}</p>
         
         <div class="flex justify-between mt-4 text-xs text-gray-400">
-           <span>01</span>
-           <span>-></span>
+           <span>Heritage</span>
+           <span>→</span>
         </div>
       </div>
     {/each}

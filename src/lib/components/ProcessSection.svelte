@@ -3,31 +3,31 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "ancestral",
+      title: "Return to Ancestral Wisdom",
+      text: "For generations, our ancestors used tallow—nature's perfect moisturizer. Rich in vitamins A, D, E, and K, grass-fed tallow mirrors our skin's natural oils, absorbing deeply to nourish from within. We honor this traditional knowledge.",
+      tags: ["Grass-Fed Beef Tallow", "Vitamin Rich", "Biocompatible Lipids", "Traditional Wisdom", "Deep Absorption", "Natural Moisturization"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "botanical",
+      title: "Embrace Botanical Harmony",
+      text: "Spanish botanicals meet ancestral ingredients. Each oil is carefully selected for its nourishing properties, creating formulations that work in harmony with your skin's natural rhythms. No synthetic additives, just pure botanical wisdom.",
+      tags: ["Spanish Botanicals", "Cold-Pressed Oils", "Plant-Based Actives", "Natural Preservation", "Aromatic Essences", "Herbal Infusions"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "honest",
+      title: "Practice Honest Formulation",
+      text: "Material simplicity guides every product. We believe in transparency—every ingredient serves a purpose, nothing is hidden. Our formulations are straightforward, effective, and rooted in what actually works for your skin.",
+      tags: ["Clean Ingredients", "No Synthetics", "Transparent Sourcing", "Minimal Processing", "Honest Labeling", "Effective Simplicity"],
       graphic: "circle-top"
     },
     {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      id: "heritage",
+      title: "Honor Flamenco Heritage",
+      text: "Like flamenco's passionate movement, our skincare philosophy celebrates vitality and authenticity. Rooted in Spanish culture, our brand identity reflects the fluid grace and honest emotion of this art form—skin that feels alive.",
+      tags: ["Spanish Heritage", "Flamenco Spirit", "Cultural Authenticity", "Passionate Craft", "Artistic Expression", "Living Tradition"],
       graphic: "circle-waves"
     }
   ];
@@ -63,7 +63,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section class="bg-[#1a1a1a] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->
@@ -71,7 +71,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">Our philosophy:</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}
